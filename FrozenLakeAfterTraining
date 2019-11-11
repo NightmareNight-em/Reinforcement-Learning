@@ -1,0 +1,11 @@
+After training the agent using epsilon-greedy algorithm,the agent tends to perform well on the environments with smaller number of states.
+Poor performance continues in environments with large number of states.
+Tried using an alternative:Weighting the state features and learning the weights through metric learning techniques such that neighboring states represent similar game situation.
+This method is useful in game learning tasks, where the state space is very large , but discrete as is proved by the authors of this paper:-
+
+Reinforcement Learning in Video Games Using Nearest Neighbor Interpolation and Metric Learning,
+Matthew S. Emigh, Evan G. Kriminger, Austin J.Brockmeier, Member, IEEE, José C. Príncipe, Fellow, IEEE, and Panos M. Pardalos,
+IEEE TRANSACTIONS ON COMPUTATIONAL INTELLIGENCE AND AI IN GAMES , VOL.8 , NO.1 , MARCH 2016 
+
+I personally have used Deep Q-Learning to approximate the Q-value function.
+See 'report.doc' to know about Q-value function.
