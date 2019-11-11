@@ -1,0 +1,3 @@
+Try to run this code in jupyter notebook to see how the agent perform in the Frozen-lake environment(This environment is a 4x4 matrix of frozen ice,'F' and hole,'H').
+The game rules are simple,the agent has to start from 'S'(start position) and reach 'G'(goal) to get reward but can fall in a hole and lose.
+Observe how poorly the agent performs!
